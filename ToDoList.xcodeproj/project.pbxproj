@@ -11,6 +11,8 @@
 		BD0B4D992A73F56800FAB55A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0B4D982A73F56800FAB55A /* ContentView.swift */; };
 		BD0B4D9B2A73F56A00FAB55A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD0B4D9A2A73F56A00FAB55A /* Assets.xcassets */; };
 		BD0B4D9E2A73F56A00FAB55A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD0B4D9D2A73F56A00FAB55A /* Preview Assets.xcassets */; };
+		BD0B4DA52A73F6B500FAB55A /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0B4DA42A73F6B500FAB55A /* ToDoItem.swift */; };
+		BDD19FC42A79042100230D9E /* NewToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD19FC32A79042100230D9E /* NewToDoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		BD0B4D982A73F56800FAB55A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD0B4D9A2A73F56A00FAB55A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD0B4D9D2A73F56A00FAB55A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD0B4DA42A73F6B500FAB55A /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		BDD19FC32A79042100230D9E /* NewToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewToDoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +57,10 @@
 			children = (
 				BD0B4D962A73F56800FAB55A /* ToDoListApp.swift */,
 				BD0B4D982A73F56800FAB55A /* ContentView.swift */,
+				BDD19FC32A79042100230D9E /* NewToDoView.swift */,
 				BD0B4D9A2A73F56A00FAB55A /* Assets.xcassets */,
 				BD0B4D9C2A73F56A00FAB55A /* Preview Content */,
+				BD0B4DA42A73F6B500FAB55A /* ToDoItem.swift */,
 			);
 			path = ToDoList;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			files = (
 				BD0B4D992A73F56800FAB55A /* ContentView.swift in Sources */,
 				BD0B4D972A73F56800FAB55A /* ToDoListApp.swift in Sources */,
+				BD0B4DA52A73F6B500FAB55A /* ToDoItem.swift in Sources */,
+				BDD19FC42A79042100230D9E /* NewToDoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
